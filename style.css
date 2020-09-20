@@ -1,0 +1,67 @@
+body{
+	background-image: url(Images/plan.png);
+}
+
+h1{
+	color: orange;
+	text-align: center;
+	margin-bottom: 50px;
+	font-size: 90px;
+}
+
+footer{
+	margin-left: 50px;
+}
+
+h3{
+	margin-top: 90px;
+	color: orange;
+	font-size: 30px;
+}
+
+h2{
+	margin-top : -30px;
+	color: #B46800;
+	font-size: 20px;
+}
+
+#carrousel{
+	position: relative;
+    border: solid 10px #FEF53D;
+    width: 950px;
+    height: 625px;
+    margin: 40px;
+}
+
+img{
+	width: 950px;
+	height: auto;
+}
+
+.navigation{
+	border : solid 5px #FEF53D;
+	background: orange;	
+	color: white;
+	padding: 2px 4px;
+	cursor: pointer;
+	text-align: center;
+	font-size: 30px;
+}
+
+.navigation:hover {
+	background: white;
+	color: orange;
+}
+
+#bloc_carrousel{
+	display:flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+}
+
+p{
+	margin: 10px;
+	width: 150px;
+}
